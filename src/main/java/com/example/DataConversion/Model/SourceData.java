@@ -1,0 +1,61 @@
+package com.example.DataConversion.Model;
+
+import lombok.Data;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Data
+public class SourceData {
+    private long id;
+    private String lastModifiedBy;
+    private LocalDateTime lastModifiedDateTime;
+    private String createdBy;
+    private LocalDateTime createdDateTime;
+    private List<CustomField> customFields;
+    private long unitID;
+    private long buildingID;
+    private long portfolioID;
+    private String status;
+    private String type;
+    private String source;
+    private String comments;
+    private String preferredContactMethod;
+    private String unitDesired;
+    private String unitTypeDesired;
+    private String cityDesired;
+    private String stateDesired;
+    private String zipDesired;
+    private String neighborhoodDesired;
+    private double rentMin;
+    private double rentMax;
+    private int numberBedrooms;
+    private double numberBathrooms;
+    private String typeOfInquiry;
+    private LocalDate moveInDate;
+    private boolean hasPets;
+    private String assignedToFullName;
+    private LocalDate leaseStartDate;
+    private LocalDate leaseEndDate;
+    private double securityDeposit;
+    private double rent;
+    private boolean applicationFeePaid;
+    private String propertyAddress;
+    private String propertyAddress2;
+    private String propertyCity;
+    private String propertyState;
+    private String propertyZip;
+    private String propertyCountry;
+    private double propertyArea;
+    private String propertyAreaUnits;
+    private int propertyNumberBedrooms;
+    private double propertyNumberBathrooms;
+    private int numberOfPets;
+    private String reasonForMoving;
+    private String currentHomeType;
+    private double currentRentMortgage;
+    private String timeAtCurrentResidence;
+    private String petType;
+    private String petWeights;
+    private List<Contact> contacts;
+}
